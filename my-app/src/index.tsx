@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import ResponsiveAppBar from './App';
+import ResponsiveAppBar from './NavBar';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
