@@ -30,6 +30,7 @@ function ResponsiveAppBar() {
     <AppBar position='static'>
       <Container maxWidth='xl'>
         <Toolbar disableGutters>
+          {/* The toolbar for desktop mode*/}
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant='h6'
@@ -87,6 +88,8 @@ function ResponsiveAppBar() {
             </Menu>
           </Box>
           <AdbIcon sx={{display: {xs: 'flex', md:'none'}, mr: 1}}/>
+          {/* The Nav Bar for mobile*/}
+          
           <Typography
             variant='h5'
             noWrap
